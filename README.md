@@ -26,7 +26,7 @@ Installing
 
 To install:
 
-    bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+    bash < <(curl -s -S -L https://github.com/mosaic101/gvm/master/binscripts/gvm-installer)
 
 Or if you are using zsh just change `bash` with `zsh`
 
