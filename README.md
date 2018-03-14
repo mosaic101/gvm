@@ -1,10 +1,18 @@
 # gvm
 
-[![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)
+Go 语言版本管理工具; 
 
-by Josh Bussdieker (jbuss, jaja, jbussdieker) while working at [Moovweb](https://www.moovweb.com)
+forked from [Moovweb](https://www.moovweb.com)
 
-GVM provides an interface to manage Go versions.
+替换了代码下载源以及版本获取源，方便中国开发者使用，使用方式不变～
+
+Go 版本大于 1.4 的使用方法:
+```bash
+gvm install go1.4 -B
+gvm use go1.4
+export GOROOT_BOOTSTRAP=$GOROOT
+gvm install go1.9.4
+```
 
 Features
 ========
